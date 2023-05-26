@@ -11,7 +11,7 @@ It is easy to interrogate the WiFi stick for basic status and metrics.
 
 To do a test (assuming your WiFi stick is 192.168.1.149) use this URL: http://admin:password@192.168.1.149/inverter.cgi
   
-In this example, set <password> to your password used bu the WiFi stick to connect to your local network.
+In this example, set <password> to your password used by the WiFi stick to connect to your local network.
 
 A response in a web browser should look something like: 0000000000000000;360026;F4;28.1;0;191;3390;NO; 
 
