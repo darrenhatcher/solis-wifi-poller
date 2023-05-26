@@ -21,7 +21,7 @@ The data from the WiFi Stick are semi-colon delimited fields. Note this is hardc
     //                                         f1               f2     f3 f4   f5  f6 f7   f8
     // f1 = Inverter serial number
     // f2 = Firmware version
-    // f3 = Solis Inverter System Type
+    // f3 = Solis Inverter Model System Type
     // f4 = Inverter Internal Temperature (C)
     // f5 = Instant power reading from panels
     // f6 = Yield for the current day -> note this is missing the decimal point, with the right-most number being part of 0.1 kWh
