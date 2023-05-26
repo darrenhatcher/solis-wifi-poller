@@ -56,14 +56,14 @@ function ProcessResults($sData)
     // The data from the WiFi Stick are semi-colon delimited fields -> note this is hardcoded on the stick and may change of the stick f/w is updated
     // Data returned successfully looks like: "0000000000000000;360026;F4;23.2;170;67;3371;NO;"
     //                                         f1               f2     f3 f4   f5  f6 f7   f8
-    // f1 = ?
-    // f2 = ?
+    // f1 = Inverter serial number
+    // f2 = WiFi Stick firmware version
     // f3 = Solis Inverter System Type
     // f4 = Inverter Internal Temperature (C)
     // f5 = Instant power reading from panels
     // f6 = Yield for the current day -> note this is missing the decimal point, with the right-most number being part of 0.1 kWh
     // f7 = Yield for the system since commissioned in kWh
-    // f8 = ?
+    // f8 = Alerts enabled. Yes/No
 
     // now unpick the results
 }
