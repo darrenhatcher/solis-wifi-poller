@@ -15,7 +15,7 @@ In this example, set <password> to your password used by the WiFi stick to conne
 
 A response in a web browser should look something like: 0000000000000000;360026;F4;28.1;0;191;3390;NO; 
 
-The data from the WiFi Stick are semi-colon delimited fields. Note this is hardcoded on the stick and may change of the stick firmware is updated.
+The data from the WiFi Stick are semi-colon delimited fields. Note this is hardcoded on the stick and could change if the stick firmware is updated.
   
     // Data returned successfully looks like: "0000000000000000;360026;F4;23.2;170;67;3371;NO;"
     //                                         f1               f2     f3 f4   f5  f6 f7   f8
